@@ -22,7 +22,7 @@ export const config = {
     //
     specs: [
         // ToDo: define location for spec files here
-        'test/specs/*.js'
+        'test/specs/blog.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -51,7 +51,8 @@ export const config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'chrome'
+        browserName: 'chrome',
+        browserVersion: '122.0.6261.29',
     }],
 
     //
